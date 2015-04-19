@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="prefscreen1"
+    android:title="@string/pref_title"
+    android:summary="@string/pref_summary" >
+    
+    <CheckBoxPreference 
+        android:key="crashrandonly"
+        android:title="Crash Randomly"/>
+    
+    <ListPreference 
+        android:key="runpref"
+        android:title="Run Preference"
+        android:summary="Select one of a list of choices"
+        android:entries="@array/titles1"
+        android:entryValues="@array/values1"/>
+    
+
+</PreferenceScreen>

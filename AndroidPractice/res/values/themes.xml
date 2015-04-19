@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The theme applied to the application or activity -->
+    <style name="CustomActionBarTheme"
+        parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        
+       <item name="android:actionBarStyle">@style/MyActionBar</item> 
+        
+    </style>
+    
+    <!-- Actionbar Styles -->
+   <style name="MyActionBar"
+       parent="@style/Widget.AppCompat.Light.Base.ActionBar.Solid.Inverse">
+       
+       <item name="android:background">@drawable/ic_launcher</item>
+   </style>
+    
+</resources>

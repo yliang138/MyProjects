@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidPractice</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="enter_text">Enter a book title!</string>
+    <string name="button_send">Add Books</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="display_text">List of Books</string>
+    
+    <string name="pref_title">Preferences</string>
+    <string name="pref_summary">Summary of Preferences</string>
+    
+    <string-array name="titles1">
+        <item>Android Development</item>
+        <item>Big Java</item>
+        </string-array>
+        
+        <string-array name="values1">
+        <item>0</item>
+        <item>1</item>
+        </string-array>
+  
+</resources>
